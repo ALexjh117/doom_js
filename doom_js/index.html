@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tienda Online</title>
+  <link rel="stylesheet" href="index.css">
+</head>
+<body>
+
+<header>
+  <h1 class="activ">ActivStore</h1>
+  <p class="activ">¡Bienvenido a ActivStore! Encuentra los mejores productos tecnológicos al mejor precio.</p>
+  <button id="ver-carrito" class="carritoac">Ver Carrito</button>
+  <p id="contador-carrito" class="activ">0 artículos en el carrito</p>
+</header>
+
+<section class="productos">
+  <article class="producto">
+    <img src="img/play.jpg" alt="PlayStation 5" class="producto-imagen"> 
+    <h2>PlayStation 5</h2>
+    <p class="precio">$2.499.000 COP</p>
+    <button class="agregar-carrito">Agregar al carrito</button>
+  </article>
+
+  <article class="producto">
+    <img src="img/xbox.jpg" alt="Xbox Series X" class="producto-imagen">
+    <h2>Xbox Series X</h2>
+    <p class="precio">$2.499.000 COP</p>
+    <button class="agregar-carrito">Agregar al carrito</button>
+  </article>
+
+  <article class="producto">
+    <img src="img/nintendo.jpg" alt="Nintendo Switch" class="producto-imagen">
+    <h2>Nintendo Switch</h2>
+    <p class="precio">$1.499.000 COP</p>
+    <button class="agregar-carrito">Agregar al carrito</button>
+  </article>
+
+  <article class="producto">
+    <img src="img/rtx.jpg" alt="RTX 3080 Ti" class="producto-imagen">
+    <h2>RTX 3080 Ti</h2>
+    <p class="precio">$4.799.000 COP</p>
+    <button class="agregar-carrito">Agregar al carrito</button>
+  </article>
+
+  <article class="producto">
+    <img src="img/mouse.jpg" alt="Razer Gaming Mouse" class="producto-imagen">
+    <h2>Razer Gaming Mouse</h2>
+    <p class="precio">$299.000 COP</p>
+    <button class="agregar-carrito">Agregar al carrito</button>
+  </article>
+
+  <article class="producto">
+    <img src="img/logi.jpg" alt="Logitech G Pro X Headset" class="producto-imagen">
+    <h2>Logitech G Pro X Headset</h2>
+    <p class="precio">$499.000 COP</p>
+    <button class="agregar-carrito">Agregar al carrito</button>
+  </article>
+
+  <article class="producto">
+    <img src="img/iphone.jpg" alt="Apple iPhone 15" class="producto-imagen">
+    <h2>Apple iPhone 15</h2>
+    <p class="precio">$4.299.000 COP</p>
+    <button class="agregar-carrito">Agregar al carrito</button>
+  </article>
+
+  <article class="producto">
+    <img src="img/samsung.jpg" alt="Samsung Galaxy S23" class="producto-imagen">
+    <h2>Samsung Galaxy S23</h2>
+    <p class="precio">$3.899.000 COP</p>
+    <button class="agregar-carrito">Agregar al carrito</button>
+  </article>
+
+  <article class="producto">
+    <img src="img/asus.jpg" alt="Asus ROG Strix G17" class="producto-imagen">
+    <h2>Asus ROG Strix G17</h2>
+    <p class="precio">$6.499.000 COP</p>
+    <button class="agregar-carrito">Agregar al carrito</button>
+  </article>
+
+  <article class="producto">
+    <img src="img/hp_omen.jpg" alt="HP Omen 45L" class="producto-imagen">
+    <h2>HP Omen 45L</h2>
+    <p class="precio">$10.499.000 COP</p>
+    <button class="agregar-carrito">Agregar al carrito</button>
+  </article>
+
+  <article class="producto">
+    <img src="img/558ab72a-d725-4480-bf67-91712951cfe1_700x700.webp" alt="Oculus Quest 2" class="producto-imagen">
+    <h2>Oculus Quest 2</h2>
+    <p class="precio">$1.599.000 COP</p>
+    <button class="agregar-carrito">Agregar al carrito</button>
+  </article>
+
+  <article class="producto">
+    <img src="img/teclado.jpg" alt="Logitech G Pro X Keyboard" class="producto-imagen">
+    <h2>Logitech G Pro X Keyboard</h2>
+    <p class="precio">$599.000 COP</p>
+    <button class="agregar-carrito">Agregar al carrito</button>
+  </article>
+
+  <article class="producto">
+    <img src="img/control.jpg" alt="PS5 DualSense Wireless Controller" class="producto-imagen">
+    <h2>PS5 DualSense Wireless Controller</h2>
+    <p class="precio">$299.000 COP</p>
+    <button class="agregar-carrito">Agregar al carrito</button>
+  </article>
+
+  <article class="producto">
+    <img src="img/monitor.webp" alt="Samsung Odyssey G9 Curved Monitor" class="producto-imagen">
+    <h2>Samsung Odyssey G9 Curved Monitor</h2>
+    <p class="precio">$6.499.000 COP</p>
+    <button class="agregar-carrito">Agregar al carrito</button>
+  </article>
+
+  <article class="producto">
+    <img src="img/audifono2.jpg" alt="Beats Studio 3 Wireless" class="producto-imagen">
+    <h2>Beats Studio 3 Wireless</h2>
+    <p class="precio">$1.399.000 COP</p>
+    <button class="agregar-carrito">Agregar al carrito</button>
+  </article>
+
+</section>
+
+
+<section id="modal-carrito" aria-hidden="true">
+  <article id="carrito-contenido">
+    <h2>Carrito</h2>
+    <ul id="items-carrito"></ul>
+    <button id="cerrar-carrito">Cerrar</button>
+    <button id="comprar">Comprar</button>
+  </article>
+</section>
+
+<script src="index.js"></script>
+
+</body>
+</html>
